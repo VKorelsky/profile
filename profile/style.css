@@ -109,3 +109,13 @@ a:hover{
 .sidebar-content > a:hover {
   color: inherit;
 }
+
+.box-hover {
+  border: solid;
+  border-color: #FFFFFF;
+}
+
+.box-hover:hover{
+  border: solid;
+  border-color: black;
+}
