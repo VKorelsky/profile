@@ -76,12 +76,12 @@ a:hover{
     margin: 2px;
     margin-left: 135px;
     width: 200px;
-    transition: 0.3s ease;
-    cursor: pointer
+    border-color: rgb(207, 0, 15);
+    border: solid;
 }
 
 .btn-red:hover{
-  transform: translateY(2px) translate(2px);
+  border-color: black;
 }
 
 #sidebar {
