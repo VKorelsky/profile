@@ -10,48 +10,61 @@
 <body>
 <div class="container">
 
-  <div class="card">
-    <img src="images/rocket.jpg" alt="Rocket profile" class="img-light-border">
-    <h1 class="headline-text">Victor Korelsky</h1>
-    <h2>The Rocket coder</h2>
-    <p></p>
-    <!-- Box to pitch a project -->
-    <a href="https://www.paypal.me/VKorelsky" target="_blank">
-      <p class="highlight btn-red">Help me reach the moon </p>
-    </a>
+  <div id="sidebar">
+    <div class="sidebar-content">
+      <a href="#header">About me</a><br>
+    </div>
+    <div class="sidebar-content">
+      <a href="#coding-skills">Code</a><br>
+    </div>
   </div>
 
-  <div class="card light-padding">
-    <ul class="list-inline">
-      <li>
-        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-        <a href="https://www.linkedin.com/in/vkorelsky" target="_blank">Linkedin</a>
-      </li>
-      <li>
-        <i class="fa fa-facebook-square" aria-hidden="true"></i>
-        <a href="https://www.facebook.com/vkorelsky" target="_blank">Facebook</a>
-      </li>
-      <li>
-        <i class="fa fa-github-square" aria-hidden="true"></i>
-        <a href="https://github.com/VKorelsky" target="_blank">Github</a>
-      </li>
-    </ul>
+  <div id="page-content">
+      <div class="card" id="header">
+        <img src="images/rocket.jpg" alt="Rocket profile" class="img-light-border">
+        <h1 class="headline-text">Victor Korelsky</h1>
+        <h2>The Rocket coder</h2>
+        <p></p>
+        <!-- Box to pitch a project -->
+        <a href="https://www.paypal.me/VKorelsky" target="_blank">
+          <p class="highlight btn-red">Help me reach the moon </p>
+        </a>
+      </div>
+
+    <div class="card light-padding" id="social-links">
+      <ul class="list-inline">
+        <li>
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          <a href="https://www.linkedin.com/in/vkorelsky" target="_blank">Linkedin</a>
+        </li>
+        <li>
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+          <a href="https://www.facebook.com/vkorelsky" target="_blank">Facebook</a>
+        </li>
+        <li>
+          <i class="fa fa-github-square" aria-hidden="true"></i>
+          <a href="https://github.com/VKorelsky" target="_blank">Github</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card" id="coding-skills">
+     <table class="center">
+       <tr>
+         <td><img src="images/ruby-vector-logo.png"></td>
+          <td><img src="images/rails_logo.png"></td>
+          <td><img src="images/postgresql-logo.png"></td>
+       </tr>
+     </table>
+    </div>
+
+    <div class="card" id="footer">
+     <h2>About this page</h2>
+     <p>Simplicity is key</p>
+    </div>
   </div>
 
-  <div class="card">
-   <table class="center">
-     <tr>
-       <td><img src="images/ruby-vector-logo.png"></td>
-        <td><img src="images/rails_logo.png"></td>
-        <td><img src="images/postgresql-logo.png"></td>
-     </tr>
-   </table>
-  </div>
-
-  <div class="card">
-   <h2>About this page</h2>
-   <p>Simple, clean & elegant</p>
-  </div>
 </div>
+
 </body>
 </html>

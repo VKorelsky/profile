@@ -84,6 +84,20 @@ a:hover{
   transform: translateY(2px) translate(2px);
 }
 
-.center {
-
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 50px;
+  top: 100px;
+  bottom: 0;
 }
+
+#page-content {
+  margin-left: 100px;
+}
+
+.sidebar-content{
+    margin: 9px;
+    border: solid;
+}
+
