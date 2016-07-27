@@ -103,5 +103,9 @@ a:hover{
 }
 
 .sidebar-content:hover{
-  transform: translateY(2px) translate(2px);
+  background-color: white;
+}
+
+.sidebar-content > a:hover {
+  color: inherit;
 }
